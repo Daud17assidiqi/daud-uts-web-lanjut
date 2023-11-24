@@ -9,9 +9,8 @@
      <!-- css -->
     <link rel="stylesheet" href="style.css">
 </head>
-<body class="bg-light">
-
-   <!-- Navbar -->
+<body>
+     <!-- Navbar -->
    <nav class="navbar navbar-light navbar-expand-lg bg-light  fixed-top p-2">
       <a class="navbar-brand text-secondary ms-3" href="#">Prodi Sistem Informasi-Universitas Widyatama</a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
@@ -34,24 +33,27 @@
     </div>
   </nav>
    <!-- endNavbar -->
+   <section id="about">
+    <div class="container">
+        <div class="row">
+            <div class="col">
+            <h1>About Me</h1>
+            </div>
+        </div>
+    <div class="row">
+        <div class="col">
+        <p>Halo, perkenalkan nama saya Daud,Lorem ipsum dolor sit amet, consectetur 
+        adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+        Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip 
+        ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit 
+        esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non 
+        proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+        </div>
+    </div>
+    </div>
+   </section>
 
-  <!-- Header -->
-  <div class="container">
-    <main> 
-        <section class="home">
-         <h1 class="display-4">Selamat Datang di Website <strong>DAUD ASSIDIQI.</strong></h1>
-         <p class="lead">ini digunakan untuk menunjukkan kompetensi saya dalam menggunakan framework HMVC dalam pengembangan aplikasi web serta mengelola source code menggunakan sistem kontrol versi GIT</p> 
-         </section>
-        <!-- Main -->
-        
-        <section id="about" class="bg-light text-black">
-            <h3>About</h3>
-            <p>Halaman ini merupakan halaman selamat datang.</p>
-        </section>
-  </main>
-  <!--endMain  -->
-</div>
-  <!-- endHeader -->
+
 
 <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/5.1.3/js/bootstrap.min.js"></script>
